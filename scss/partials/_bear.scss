@@ -58,23 +58,20 @@
   height: 80px;
   background-color: pink;
   background: linear-gradient(rgba(239, 199, 103, 1) 0%, rgba(202, 124, 58, 1) 100%);
-
 }
-
 .ear-left {
   left: 0;
 }
-
 .ear-right {
   right: 0;
 }
 .ear-right:hover, .ear-left:hover, .leg-left:hover, .leg-right:hover, .hand-right:hover, .hand-left:hover{
   transform: scale(1.5);
 }
-.ears:hover > .ear-left.description{
+.ears:hover > p{
   display: block;
 }
-.ear-left.description{
+.ears p{
   display: none;
   position: relative;
   border-radius: 10px;
@@ -86,7 +83,6 @@
   left: 250px;
   transform: none;
 }
-
 .ear:before {
   content: '';
   bottom: 16px;
