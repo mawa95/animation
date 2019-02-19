@@ -8,6 +8,10 @@
   bottom: 400px;
   filter: blur(3px);
   animation: spin 60s infinite;
+  box-shadow: 0 0 10px orange,
+  0 0 60px orange,
+  0 0 200px yellow,
+  inset 0 0 80px yellow;
 }
 
 .sunlight{
@@ -22,29 +26,29 @@
 }
 .z1{
   left: 50%;
-  top: -30px;
+  top: -50px;
 }
 .z2{
   right: 50%;
-  bottom: -30px;
+  bottom: -50px;
 }
 .z3{
-  bottom: -10px;
+  bottom: -20px;
   left: 5%;
   transform: rotate(40deg);
 }
 .z4{
-  top: -10px;
+  top: -20px;
   right: 5%;
   transform: rotate(40deg);
 }
 .z5{
-  top: -20px;
-  right: 90%;
+  top: -10px;
+  right: 50%;
   transform: rotate(140deg);
 }
 .z6{
-  bottom: 40px;
+  bottom: 50px;
   right: 90%;
   transform: rotate(140deg);
 }
