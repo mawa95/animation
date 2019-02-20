@@ -2,8 +2,6 @@
   position: absolute;
   left: 500px;
   top: 300px;
-  width: 50%;
-  height: 50%;
 }
 .spot {
   position: absolute;
@@ -16,28 +14,49 @@
   height: 32px;
   border: 1px solid #5FB404;
   border-radius: 16px;
-  background-color: #5FB404;
+  background: linear-gradient(210deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  animation: rainbow 18s ease infinite;
 }
 .spot:hover {
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 blockquote {
   position: relative;
+  width: 60%;
+  font-weight: bold;
   display: none;
   border-radius: 8px;
   padding: 8px;
   text-align: center;
-  line-height: 1.5em;
   color: #fff;
   background-color: #29C9E9;
-  opacity: 0.7;
+  opacity: 0.9;
+}
+blockquote:before{
+  content: '';
+  position: absolute;
+  height: 15px;
+  width: 15px;
+  transform: rotate(45deg);
+  background-color: #29C9E9;
+  left: -5px;
+  top: 30%;
 }
 .spots:hover > blockquote {
   display: block;
   top: -16px;
   left: 18px;
+}
+
+
+@keyframes rainbow {
+  0%{
+    background-position:0 82%;
+  }
+  50%{
+    background-position:100% 19%;
+  }
+  100%{
+  background-position:0 82%;
+  }
 }

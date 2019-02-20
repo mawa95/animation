@@ -18,7 +18,6 @@
   background: #FFC940;
   height: 50px;
   width: 10px;
-  //animation: scale 2s infinite;
 
 }
 .z1, .z2, .z3,.z4,.z5,.z6,.z7,.z8{
@@ -43,14 +42,24 @@
   transform: rotate(40deg);
 }
 .z5{
-  top: -10px;
-  right: 50%;
-  transform: rotate(140deg);
+  top: 50px;
+  right: -20%;
+  transform: rotate(90deg);
 }
 .z6{
   bottom: 50px;
-  right: 90%;
-  transform: rotate(140deg);
+  right: 150px;
+  transform: rotate(90deg);
+}
+.z7{
+  transform: rotate(130deg);
+  top: -20px;
+  right: 130px;
+}
+.z8{
+  transform: rotate(130deg);
+  top: 110px;
+  right: -5px;
 }
 
 @keyframes spin {
@@ -58,12 +67,11 @@
     transform: rotate(360deg);
   }
 }
-@keyframes scale {
-  50%{
-    transform: rotateX(60deg);
-  }
-  100%{
-    transform: rotateX(30deg);
-  }
 
+
+.sun_description{
+  display: none;
+}
+.sun:hover >p{
+  display: block;
 }

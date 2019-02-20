@@ -62,13 +62,12 @@
   //border: 2px groove blue;
 
 }
-//.cloud:hover{
-//  transform: scale(1.3);
-//  display: block;
-//  p{
-//    display: block;
-//  }
-//}
+.cloud_description{
+  display: none;
+}
+.cloud > p{
+  display: block;
+}
 
 .cloud:after, .cloud:before {
   background: #D7FFF1;

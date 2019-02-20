@@ -4,7 +4,7 @@
   width: 200px;
   height: 380px;
   position: relative;
-  right: -40px;
+  right: 0;
   top: 80px;
   transform: scale(0.6);
 }
@@ -74,16 +74,17 @@
 }
 .bear_description{
   display: none;
-  font-size: 30px;
   font-weight: bold;
+  font-size: 25px;
   position: relative;
   left: 250px;
   top: -50px;
   text-align: center;
-  width: 250px;
-  height: 200px;
-  border-radius: 50%;
-  margin: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  padding: 20px;
+  //margin: 20px;
   color: #fff;
   background-color: #29C9E9;
   transform: none;
