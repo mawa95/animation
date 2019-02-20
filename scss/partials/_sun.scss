@@ -6,7 +6,7 @@
   position: relative;
   left: 250px;
   bottom: 400px;
-  filter: blur(3px);
+  //filter: blur(1px);
   animation: spin 60s infinite;
   box-shadow: 0 0 10px orange,
   0 0 60px orange,
@@ -19,6 +19,7 @@
   height: 50px;
   width: 10px;
   border-radius: 50%;
+  filter: blur(3px);
 
 }
 .z1, .z2, .z3,.z4,.z5,.z6,.z7,.z8{
@@ -69,7 +70,18 @@
 }
 .sun_description{
   display: none;
+  position: absolute;
+  color: orange;
+  font-weight: bold;
+  left: 20px;
+  bottom: 50px;
+  z-index: 100;
+
 }
-.sun:hover >p{
+.sun:hover >p {
   display: block;
+}
+
+.sun:hover{
+  transform: scale(1.2);
 }

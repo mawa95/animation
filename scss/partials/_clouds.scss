@@ -60,7 +60,6 @@
   filter: blur(8px);
   opacity: 0.8;
   //border: 2px groove blue;
-
 }
 .cloud_description{
   display: none;
@@ -92,4 +91,6 @@
   right: 50px;
   top: -90px;
 }
-
+.cloud:hover{
+  transform: scale(2);
+}
