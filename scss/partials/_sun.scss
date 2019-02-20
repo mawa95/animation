@@ -18,6 +18,7 @@
   background: #FFC940;
   height: 50px;
   width: 10px;
+  border-radius: 50%;
 
 }
 .z1, .z2, .z3,.z4,.z5,.z6,.z7,.z8{
@@ -61,14 +62,11 @@
   top: 110px;
   right: -5px;
 }
-
 @keyframes spin {
   100%{
     transform: rotate(360deg);
   }
 }
-
-
 .sun_description{
   display: none;
 }
