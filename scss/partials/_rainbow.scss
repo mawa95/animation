@@ -2,6 +2,10 @@
   position: absolute;
   left: 500px;
   top: 300px;
+  @include desktop{
+    top: 400px;
+    left: 700px;
+  }
 }
 .spot {
   position: absolute;
