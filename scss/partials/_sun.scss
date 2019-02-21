@@ -4,14 +4,17 @@
   width: 140px;
   border-radius: 50%;
   position: relative;
-  left: 250px;
-  bottom: 400px;
+  margin:0 auto;
+  top: -450px;
   //filter: blur(1px);
   animation: spin 60s infinite;
   box-shadow: 0 0 10px orange,
   0 0 60px orange,
   0 0 200px yellow,
   inset 0 0 80px yellow;
+  @include desktop{
+    top: -700px;
+  }
 }
 
 .sunlight{

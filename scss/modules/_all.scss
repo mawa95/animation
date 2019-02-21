@@ -1,16 +1,36 @@
+
+$width-tablet: 760px;
+$width-desktop: 1600px;
+$width-phone-landcape: 500px;
+
+
+@mixin tablet() {
+  @media screen and (min-width: #{$width-tablet}) {
+    @content;
+  }
+}
+@mixin phone-landscape() {
+  @media screen and (min-width: #{$width-phone-landcape}) {
+    @content;
+  }
+}
+@mixin desktop() {
+  @media screen and (min-width: #{$width-desktop}) {
+    @content;
+  }
+}
+
+
 body {
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
   min-height: 100vh;
-  margin: 0;
+  //width: 1200px;
+  margin: 0 auto;
   background-image: url("../../images/6104.jpg");
   background-size: cover;
   background-repeat: no-repeat;
 }
-
-
-
-
 
 
